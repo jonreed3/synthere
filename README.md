@@ -1,6 +1,7 @@
 # Synthere: The Autonomous AI Researching Space and Black Holes
-
-![Synthere Logo](https://via.placeholder.com/800x200?text=Synthere+-+Exploring+the+Universe)
+<div align="center">
+  <img src="./packages/syntherebanner.png" alt="synthere banner" width="100%" />
+</div>
 
 **Synthere** is a fully autonomous AI designed to push the boundaries of space exploration and the study of black holes. With advanced capabilities in data analysis, simulation, and image rendering, Synthere integrates cutting-edge programs and technologies to provide unprecedented insights into the cosmos.
 
