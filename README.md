@@ -22,9 +22,7 @@ Synthere leverages AI-powered rendering tools to create stunning visuals based o
 - **Stable Diffusion**: To generate artistic impressions of space phenomena.
 - **Blender**: For creating high-quality 3D models of black holes, wormholes, and space environments.
 - **OpenSpace**: For dynamic, interactive visualizations of cosmic data.
-
-![Black Hole Rendering](https://via.placeholder.com/600x300?text=Black+Hole+Accretion+Disk)
-
+- 
 ### Machine Learning
 - Incorporates deep learning models to identify and classify cosmic objects.
 - Utilizes reinforcement learning for simulating space phenomena over time.
@@ -34,10 +32,9 @@ Synthere leverages AI-powered rendering tools to create stunning visuals based o
 ```
 Synthere/
 ├── data/                  # Astronomical datasets
-├── models/                # Machine learning models
-├── simulations/           # Black hole and space simulations
-├── images/                # Rendered visuals and raw data
-├── notebooks/             # Jupyter notebooks for research
+├── packages/              # Modular code for Synthere's features
+├── scripts/               # Custom scripts for specific tasks
+├── simulations/           # Scripts and data for simulations
 ├── src/                   # Core AI logic and algorithms
 └── README.md              # Project documentation
 ```
@@ -70,13 +67,19 @@ Synthere/
 ## Example Outputs
 
 ### Simulated Black Hole Accretion Disk
-![Example Image 1](https://via.placeholder.com/600x300?text=Accretion+Disk+Simulation)
+<div align="center">
+  <img src="./simulations/blackdiscksim.png" alt="BlackHoleDisk" width="100%" />
+</div>
 
-### Artistic Representation of a Wormhole
-![Example Image 2](https://via.placeholder.com/600x300?text=Wormhole+Visualization)
+### Representation of a Wormhole
+<div align="center">
+  <img src="./simulations/render2.jpg" alt="wormhole" width="100%" />
+</div>
 
 ### Galactic Collision Model
-![Example Image 3](https://via.placeholder.com/600x300?text=Galactic+Collision)
+<div align="center">
+  <img src="./simulations/render1.png" alt="galcollision" width="100%" />
+</div>
 
 ## Contributing
 We welcome contributions from astrophysicists, data scientists, and space enthusiasts! To contribute:
