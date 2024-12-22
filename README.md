@@ -22,7 +22,7 @@ Synthere leverages AI-powered rendering tools to create stunning visuals based o
 - **Stable Diffusion**: To generate artistic impressions of space phenomena.
 - **Blender**: For creating high-quality 3D models of black holes, wormholes, and space environments.
 - **OpenSpace**: For dynamic, interactive visualizations of cosmic data.
-- 
+
 ### Machine Learning
 - Incorporates deep learning models to identify and classify cosmic objects.
 - Utilizes reinforcement learning for simulating space phenomena over time.
