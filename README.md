@@ -1,106 +1,100 @@
-# Axior 🤖
+# Synthere: The Autonomous AI Researching Space and Black Holes
 
-<div align="center">
-  <img src="./docs/static/img/axior_banner.jpg" alt="Axior Banner" width="100%" />
-</div>
+![Synthere Logo](https://via.placeholder.com/800x200?text=Synthere+-+Exploring+the+Universe)
 
-## ✨ Features
+**Synthere** is a fully autonomous AI designed to push the boundaries of space exploration and the study of black holes. With advanced capabilities in data analysis, simulation, and image rendering, Synthere integrates cutting-edge programs and technologies to provide unprecedented insights into the cosmos.
 
--   🛠️ Full-featured Discord, Twitter and Telegram connectors
--   🔗 Support for every model (Llama, Grok, OpenAI, Anthropic, etc.)
--   👥 Multi-agent and room support
--   📚 Easily ingest and interact with your documents
--   💾 Retrievable memory and document store
--   🚀 Highly extensible - create your own actions and clients
--   ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
--   📦 Just works!
+## 🚀 Features
 
-## 🎯 Use Cases
+### 🔭 Space Research
+- Autonomous analysis of astronomical data from observatories and satellites.
+- Integration with major space research databases such as NASA's exoplanet archive and ESA's Hubble Space Telescope observations.
+- Advanced black hole simulation using computational astrophysics models.
 
--   🤖 Chatbots
--   🕵️ Autonomous Agents
--   📈 Business Process Handling
--   🎮 Video Game NPCs
--   🧠 Trading
+### 🌌 Black Hole Studies
+- Generates 3D simulations of black hole accretion disks and event horizons.
+- Predicts gravitational wave patterns using AI-based modeling.
+- Explores and maps the influence of black holes on surrounding galaxies.
 
-## 🚀 Quick Start
+### 🖼️ Image Rendering
+Synthere leverages AI-powered rendering tools to create stunning visuals based on its research:
+- **Stable Diffusion**: To generate artistic impressions of space phenomena.
+- **Blender**: For creating high-quality 3D models of black holes, wormholes, and space environments.
+- **OpenSpace**: For dynamic, interactive visualizations of cosmic data.
 
-### Prerequisites
+![Black Hole Rendering](https://via.placeholder.com/600x300?text=Black+Hole+Accretion+Disk)
 
--   [Python 2.7+](https://www.python.org/downloads/)
--   [Node.js 23+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
--   [pnpm](https://pnpm.io/installation)
+### 🧠 Machine Learning
+- Incorporates deep learning models to identify and classify cosmic objects.
+- Utilizes reinforcement learning for simulating space phenomena over time.
+- Trains on datasets from projects like LIGO and the Event Horizon Telescope.
 
-> **Note for Windows Users:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) is required.
-
-### Use the Starter (Recommended)
-
-```bash
-git clone https://github.com/axior-agents/axior.git
-
-cp .env.example .env
-
-pnpm i && pnpm start
+## 📂 Repository Structure
+```
+Synthere/
+├── data/                  # Astronomical datasets
+├── models/                # Machine learning models
+├── simulations/           # Black hole and space simulations
+├── images/                # Rendered visuals and raw data
+├── notebooks/             # Jupyter notebooks for research
+├── src/                   # Core AI logic and algorithms
+└── README.md              # Project documentation
 ```
 
-### Manually Start Axior (Only recommended if you know what you are doing)
+## 🛠️ Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/axior-agents/axior.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/synthere.git
+   cd synthere
+   ```
 
-# Checkout the latest release
-# This project iterates fast, so we recommend checking out the latest release
-git checkout $(git describe --tags --abbrev=0)
-```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Start Axior with Gitpod
+3. Launch the application:
+   ```bash
+   python main.py
+   ```
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/axior-agents/Axior/tree/main)
+## 🌟 How to Use
 
-### Edit the .env file
+1. **Set up astronomical data**: Import your datasets or connect to live feeds from observatories.
+2. **Run simulations**: Use built-in tools to model black holes and space phenomena.
+3. **Render visuals**: Generate and export stunning visuals for presentations or research papers.
+4. **Collaborate**: Share results and insights with the community using integrated tools.
 
-Copy .env.example to .env and fill in the appropriate values.
+## 🖼️ Example Outputs
 
-```
-cp .env.example .env
-```
+### Simulated Black Hole Accretion Disk
+![Example Image 1](https://via.placeholder.com/600x300?text=Accretion+Disk+Simulation)
 
-Note: .env is optional. If your planning to run multiple distinct agents, you can pass secrets through the character JSON
+### Artistic Representation of a Wormhole
+![Example Image 2](https://via.placeholder.com/600x300?text=Wormhole+Visualization)
 
-### Automatically Start Axior
+### Galactic Collision Model
+![Example Image 3](https://via.placeholder.com/600x300?text=Galactic+Collision)
 
-This will run everything to setup the project and start the bot with the default character.
+## 🤝 Contributing
+We welcome contributions from astrophysicists, data scientists, and space enthusiasts! To contribute:
+- Fork the repository.
+- Create a feature branch.
+- Submit a pull request with a detailed description of your changes.
 
-```bash
-sh scripts/start.sh
-```
+## 📜 License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-### Edit the character file
+## 🌌 Acknowledgments
+Synthere is inspired by humanity's curiosity and wonder about the cosmos. Special thanks to:
+- NASA, ESA, and other space organizations for making their data public.
+- The developers of Blender, Stable Diffusion, and OpenSpace for their powerful tools.
+- The global scientific community for their dedication to uncovering the secrets of the universe.
 
-1. Open `agent/src/character.ts` to modify the default character. Uncomment and edit.
+---
 
-2. To load custom characters:
-    - Use `pnpm start --characters="path/to/your/character.json"`
-    - Multiple character files can be loaded simultaneously
-3. Connect with X (Twitter)
-    - change `"clients": []` to `"clients": ["twitter"]` in the character file to connect with X
+**Explore, Simulate, Render, Discover**
 
-### Manually Start Axior
+Let Synthere guide your journey through the cosmos. 🌌
 
-```bash
-pnpm i
-pnpm build
-pnpm start
-
-# The project iterates fast, sometimes you need to clean the project if you are coming back to the project
-pnpm clean
-```
-
-#### Additional Requirements
-
-You may need to install Sharp. If you see an error when starting up, try installing it with the following command:
-
-```
-pnpm install --include=optional sharp
-```
